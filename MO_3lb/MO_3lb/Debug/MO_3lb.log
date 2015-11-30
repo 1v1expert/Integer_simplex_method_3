@@ -1,0 +1,18 @@
+﻿Сборка начата 26.11.2015 3:25:35.
+Проект "C:\Users\Алкаш Влад\Documents\Visual Studio 2012\Projects\MO_3lb\MO_3lb\MO_3lb.vcxproj" в узле 2 (целевые объекты Build).
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt header.cpp
+  header.cpp
+c:\users\алкаш влад\documents\visual studio 2012\projects\mo_3lb\mo_3lb\header.cpp(26): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218): см. объявление "fopen"
+c:\users\алкаш влад\documents\visual studio 2012\projects\mo_3lb\mo_3lb\header.cpp(253): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+c:\users\алкаш влад\documents\visual studio 2012\projects\mo_3lb\mo_3lb\header.cpp(299): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Алкаш Влад\Documents\Visual Studio 2012\Projects\MO_3lb\Debug\MO_3lb.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Алкаш Влад\Documents\Visual Studio 2012\Projects\MO_3lb\Debug\MO_3lb.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Алкаш Влад\Documents\Visual Studio 2012\Projects\MO_3lb\Debug\MO_3lb.lib" /MACHINE:X86 Debug\header.obj
+  Debug\main.obj
+  MO_3lb.vcxproj -> C:\Users\Алкаш Влад\Documents\Visual Studio 2012\Projects\MO_3lb\Debug\MO_3lb.exe
+Построение проекта "C:\Users\Алкаш Влад\Documents\Visual Studio 2012\Projects\MO_3lb\MO_3lb\MO_3lb.vcxproj" завершено (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:02.11
